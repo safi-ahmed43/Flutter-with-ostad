@@ -1,4 +1,5 @@
 
+import 'package:cart_card/Module7%20Assigment/contact_list.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (_,child){
         return MaterialApp(
-          home: BottomNav(),
+          home: ContactList(),
         );
       },
     );
